@@ -299,7 +299,25 @@ executando2 = mestre(saudacao, 'Leo!','estudar')
 print(executando) 
 print(executando2)  
 #=================================================================================
-   #códigos ou descrição
+def calc(num1,num2):
+    return  num1 * num2
+    
+variavel = calc(6,3)
+print(variavel)
+    
+arrow = lambda a,s: a * s
+print(arrow(6,3))
+----------------------------------------------------------------------------------   
+
+lista = [
+    ['p1',13],
+    ['p2',6],
+    ['p3',4],
+    ['p4',50],
+]
+
+lista.sort(key=lambda item: item[1], reverse=False)
+print(lista)
 #=================================================================================
    #códigos ou descrição
 #=================================================================================

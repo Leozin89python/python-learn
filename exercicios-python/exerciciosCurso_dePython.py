@@ -263,7 +263,41 @@ def valorAPagar():
     
 print(valorAPagar())
 #=================================================================================
-   #códigos ou descrição
+   #aula 56
+   #exercicio 1
+   def calc():
+    function = calculatorMachine(1,3)
+    return function
+    
+    
+def calculatorMachine(num1,num2):
+    soma = num1 + num2
+    mult = num1 * num2
+    sub  = num2 - num1 
+    div  = num2 / num1
+    return soma, mult, sub, div
+    
+    
+print(calc())
+
+ #exercicio 2
+ #resposta do prof°
+def mestre(funcao, *args, **Kwargs):
+    return funcao(*args, **Kwargs)
+    
+    
+def fala_oi(nome):
+    return f'Oi {nome} como vai?'
+    
+    
+def saudacao(nome,saudacao):
+    return f'{saudacao} {nome}'
+    
+    
+executando  = mestre(fala_oi,'Leo')
+executando2 = mestre(saudacao, 'Leo!','estudar')
+print(executando) 
+print(executando2)  
 #=================================================================================
    #códigos ou descrição
 #=================================================================================

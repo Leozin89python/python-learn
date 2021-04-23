@@ -225,21 +225,22 @@ def porcentagem(numero,perc):
         
 print(porcentagem(10,1))  
 
-#exercicio 4
+#exercicio 4 (houve correção Ex:de ordem dos elementos e etc..)
 def fizzBuzz(n):
-    if n % 2 == 0:
+    if n % 5 == 0 and n % 3 == 0:
+        print('fizzbuzz')
+    elif n % 2 == 0:
         print( 'fizz' )
     elif n % 5 == 0:
         print('buzz')
-    elif n % 5 == 0 and n % 3 == 0:
-        print('fizzbuzz')
     else:
         print(n)
         
-        
-        
-        
 fizzBuzz(15)
+fizzBuzz(4)
+fizzBuzz(25)
+
+#exercicio 4 (versão errada)
 #=================================================================================
    #códigos
 #=================================================================================

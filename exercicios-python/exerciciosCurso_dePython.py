@@ -179,9 +179,51 @@ for n in l2:
     else:
         print(n)
 #=================================================================================
-    #códigos
+    #Exercicio aula 45
+
+def countimp( ):
+ max = 9
+ min = 0
+ for count in range(min,max,1):
+  print(count)
+  
+ 
+def countdec( ):
+ max = 11
+ min  = 2
+ while max > min:
+  max -= 1
+  print(max)
+
+  
+countimp( )
+print( )
+print( )
+countdec( )
 #=================================================================================
-    #códigos
+    #aula 52
+#exercicio 1
+def saudacaoFala(saud,nome):
+    print(saud)
+    print(nome)
+    
+    
+saudacaoFala('oi','Leo')
+
+#exercicio 2
+def soma(n1,n2,n3):
+    return n1 + n2 +n3
+    
+print(soma(1,5,4))  
+
+#exercicio 3
+def porcentagem(numero,perc):
+    percentual = (perc/100)
+    total = numero + (numero * percentual)
+    return total
+        
+        
+print(porcentagem(10,1))  
 #=================================================================================
    #códigos
 #=================================================================================

@@ -227,11 +227,11 @@ print(porcentagem(10,1))
 
 #exercicio 4
 def fizzBuzz(n):
-    if n % 2:
+    if n % 2 == 0:
         print( 'fizz' )
-    elif n % 5:
+    elif n % 5 == 0:
         print('buzz')
-    elif n % 5 and n % 3:
+    elif n % 5 == 0 and n % 3 == 0:
         print('fizzbuzz')
     else:
         print(n)
@@ -239,12 +239,7 @@ def fizzBuzz(n):
         
         
         
-        
 fizzBuzz(15)
-
-
-print(15/3)
-print(15/5)
 #=================================================================================
    #códigos
 #=================================================================================

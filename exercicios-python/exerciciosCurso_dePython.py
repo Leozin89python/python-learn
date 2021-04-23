@@ -224,6 +224,27 @@ def porcentagem(numero,perc):
         
         
 print(porcentagem(10,1))  
+
+#exercicio 4
+def fizzBuzz(n):
+    if n % 2:
+        print( 'fizz' )
+    elif n % 5:
+        print('buzz')
+    elif n % 5 and n % 3:
+        print('fizzbuzz')
+    else:
+        print(n)
+        
+        
+        
+        
+        
+fizzBuzz(15)
+
+
+print(15/3)
+print(15/5)
 #=================================================================================
    #códigos
 #=================================================================================

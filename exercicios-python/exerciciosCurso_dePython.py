@@ -319,7 +319,80 @@ lista = [
 lista.sort(key=lambda item: item[1], reverse=False)
 print(lista)
 #=================================================================================
-   #códigos ou descrição
+
+print( '==========================')
+
+print('tuplas')
+
+t1 = (1,2,3,'nome')
+
+for v in t1:
+ print(v)
+ 
+ 
+ 
+t2 = (1,3,7,5,0)
+t2 = list(t2)
+t2[  2  ] = 'newList( )'
+print(t2)
+
+print( '==========================')
+
+
+print('dicionarios')
+d1 = {  'chave1' : 'valor da chave' }
+d2 = dict(  chave2='valor da chave 2', chave3='valor da chave 3')
+
+d3 = {   
+       'str':'String',
+       123:'next-value',
+       (3,5):'tupla'
+}
+
+print(d1)
+print(d2)
+
+print()
+print('acessando posição no dicionario:')
+print(   d3[(   123   )]    )
+
+print('inserindo valor no dicionario')
+d3[7] = 'sabado'
+d3.update({ 101 : 'binario' }) 
+print(d3)
+
+#apagando
+#EX:
+#del d3[  7  ]   outro ex: del d3[  123   ]
+
+
+clientes ={
+      'cliente1' : {
+          'nome':'Leleu',
+          'sobrenome':'Arruda'
+      },
+      'cliente2' : {
+          'nome':'Ayla',
+          'sobrenome':'Smith'
+      }
+}
+#chama tudo
+#for cliente_k, cliente_v in clientes.items( ):
+#print(cliente_k,cliente_v)
+
+
+#esta chamada é mais estilizada
+#arvore de dados
+for clientesK, clientesV in clientes.items( ):
+ print(f'Exibindo: { clientesK }')
+ for dadosK, dadosV in clientesV.items( ):
+  print(f'\t{ dadosK }  = { dadosV } ')
+
+print( '==========================' )
+
+print( '==========================' )
+
+print( '==========================' )
 #=================================================================================
    #códigos ou descrição
 #=================================================================================
